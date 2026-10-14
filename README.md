@@ -14,6 +14,12 @@ cd alphaworld-swe
 pi install .
 ```
 
+也可以直接按 Git 源安装，无需先克隆：
+
+```powershell
+pi install git:github.com/mapleluvr/alphaworld-swe
+```
+
 重新启动 Pi 或执行 `/reload`，通过 `/skill:alphaworld-swe` 显式调用。包清单只暴露 `skills/alphaworld-swe/`。
 
 若工具只支持 Agent Skills，复制完整的 `skills/alphaworld-swe/` 并保留其 `references/` 即可。
