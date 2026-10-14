@@ -1,0 +1,9 @@
+# Local validation and tool state
+.local/
+.pi/
+node_modules/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example

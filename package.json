@@ -1,0 +1,21 @@
+{
+  "name": "alphaworld-swe",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "面向软件工程、工程文档与技术协作，通过生成、检验与交付推进工作。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapleluvr/alphaworld-swe.git"
+  },
+  "files": [
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": [
+      "./skills/alphaworld-swe"
+    ]
+  }
+}
